@@ -1,0 +1,27 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Tyreone58/Employee-Tracker.git"
+  },
+  "author": "Tyreone",
+  "bugs": {
+    "url": "https://github.com/Tyreone58/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/Tyreone58/Employee-Tracker#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
